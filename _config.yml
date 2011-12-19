@@ -1,0 +1,5 @@
+auto: true
+markdown: rdiscount
+
+rdiscount:
+  extensions: [smart]
