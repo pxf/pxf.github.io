@@ -3,8 +3,8 @@
 }
 
 body, html {
-	font-family: 'Maven Pro', sans-serif;
-	background-color: #eee;
+	font-family: 'Asap', sans-serif;
+	background-color: #fff;
 	color: #111;
 	margin: 0px;
 	padding: 0px;
@@ -15,6 +15,36 @@ body {
 }
 
 h1 {
-
+	display: inline;
 	font-size: 48px;
+}
+
+article {
+	margin-top: 20px;
+	margin-left: 40px;
+	max-width: 1024px;
+}
+
+a {
+	color: #800;
+	text-decoration: none;
+}
+
+#topmenu, #topmenu li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+#topmenu {
+	margin-left: 30px;
+}	
+
+#topmenu a {
+	font-size: 0.8em;
+	background-color: #ddd;
+	margin: 8px 10px;
+	padding: 8px 20px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
