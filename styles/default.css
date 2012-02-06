@@ -1,1 +1,20 @@
-body { background-color: #DDD; }
+* {
+	text-rendering: optimizeLegibility;
+}
+
+body, html {
+	font-family: 'Maven Pro', sans-serif;
+	background-color: #eee;
+	color: #111;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	padding: 100px 100px;
+}
+
+h1 {
+
+	font-size: 48px;
+}
