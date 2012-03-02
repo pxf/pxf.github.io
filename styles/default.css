@@ -2,62 +2,119 @@
 	text-rendering: optimizeLegibility;
 }
 
+html {
+	background-image: url(/static/bg2.png);
+}
+
 body, html {
 	font-family: 'Asap', sans-serif;
-	background-color: #fff;
-	color: #111;
-	margin: 0px;
+	color: #eee;
+	margin: auto;
 	padding: 0px;
-	max-width: 1024px;
+	text-shadow: #000 0px 2px 0px;
 }
 
-body {
-	padding: 100px 100px;
-}
+header {
+	padding-top: 40px;
+	text-shadow: #000 0px 2px 2px;
+}	
 
 h1 {
-	display: inline;
 	font-size: 48px;
+	margin: auto;
+	width: 60%;
+	min-width: 750px;
+}
+article {
+	box-shadow: inset 0px -20px 85px rgba(0,0,0,0.4);
 }
 
-article {
-	margin-top: 20px;
-	margin-left: 40px;
+section {
+	margin: auto;
+	width: 60%;
+	min-width: 750px;
+	font-size: 0.9em;
+}
+
+section .imgwrap {
+	background-color: rgba(0,0,0,0.4);
+	border: 1px solid rgba(0,0,0,0.8);
+	padding: 8px;
+	margin: 8px;
+	float: right;
+	border-radius: 6px;
+	font-size: 0.9em;
 }
 
 a {
-	color: #222;
+	color: #eee;
 	text-decoration: none;
 }
 
-#topmenu, #topmenu li {
-	display: inline;
-	margin: 0;
-	padding: 0;
+#menuholder {
+	margin: auto;
+	width: 60%;
+	min-width: 750px;
 }
 
 #topmenu {
-	margin-left: 30px;
-}	
+	margin-left: 300px;
+	margin-bottom: 16px;
+}
+
+#topmenu li {
+	list-style: none;
+	display: inline;
+	text-align: center;
+	margin: auto;
+	padding: 0;
+
+}
+
 
 #topmenu a {
+	color: #ddd;
+	font-weight: bold;
 	font-size: 0.8em;
-	background-color: #ddd;
-	margin: 4px 10px;
-	padding: 4px 20px;
-	-moz-border-radius: 15px;
+	background-image: url(/static/buttonbg.png);
+	margin: 12px 15px;
+	padding: 4px 30px;
+
 	border-radius: 15px;
-	border: 1px solid #999;
+	border: 1px solid #555555;
+
+	box-shadow: #000 0px 1px 2px;
+	text-shadow: #000 0px 1px 2px;
 }
 
 #topmenu a:hover {
-	background-color: #ccc;
-	border: 1px solid #777;
+	color: #fff;
+	border: 1px solid #666;
 }
 
-.footermenu, .footermenu li {
+footer {
+	margin: 0;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.4);
+	box-shadow: inset 0px 20px 85px rgba(0,0,0,0.4);
+	border-top: 1px solid #222;
+}
+
+.footermenu {
+	margin: auto;
+	width: 60%;
+	min-width: 750px;
+	padding: 0;
+}
+
+.footermenu li {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	display: inline;
+	padding-left: 20px;
+}
+
+.footermenu h4 {
+	padding-left: 0px;
 }
