@@ -1,7 +1,7 @@
 ---
 title: I dont even
 layout: post
-tags: gamedev, c++
+categories: gamedev
 ---
 
 Test!! :)

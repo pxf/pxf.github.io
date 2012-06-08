@@ -1,5 +1,6 @@
 auto: true
 markdown: rdiscount
+permalink: none
 
 rdiscount:
   extensions: [smart]

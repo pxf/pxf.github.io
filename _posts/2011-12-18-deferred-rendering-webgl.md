@@ -1,7 +1,6 @@
 ---
 title: A newer post
 layout: post
-tags: programming
+categories: prog
 ---
-
 Not wuch to see here
