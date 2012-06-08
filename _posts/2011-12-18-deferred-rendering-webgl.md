@@ -1,6 +1,6 @@
 ---
-title: A newer post
+title: Deferred rendering in WebGL
 layout: post
 categories: prog
 ---
-Not wuch to see here
+Content on its way...

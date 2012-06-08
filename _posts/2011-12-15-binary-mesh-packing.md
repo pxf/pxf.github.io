@@ -1,7 +1,6 @@
 ---
-title: I dont even
+title: Using a binary packed mesh in WebGL
 layout: post
 categories: gamedev
 ---
-
-Test!! :)
+Nothing here yet.
