@@ -79,7 +79,7 @@ blockquote{
 	border-left: 0.5em #EEE solid;
 }
 
-hr { display: block; height: 2px; border: 0; border-top: 1px solid #aaa;border-bottom: 1px solid #eee; margin: 1em 0; padding: 0; }
+hr { display: block; height: 3px; background-color: #aaa; border: 0; margin: 3em 0; padding: 0; }
 
 pre , code, kbd, samp { 
 	color: #000; 
@@ -134,4 +134,9 @@ td { vertical-align: top; }
 
 ul div.collapse li {
 	list-style: none;
+}
+
+#toc {
+	border: 1px solid #aaa;
+	font-size: 0.8em;
 }
