@@ -25,14 +25,13 @@ a{ color: #0645ad; text-decoration:none;}
 
 a:visited{ color: #0b0080; }
 
-a:hover{ color: #06e; }
+a:hover{ color: #06e; cursor: pointer; }
 
 a:active{ color:#faa700; }
 
 a:focus{ outline: thin dotted; }
 
 a:hover, a:active{ outline: 0; }
-
 
 
 span.backtick {
@@ -67,7 +66,7 @@ h1,h2,h3,h4,h5,h6{
 
 h4,h5,h6{ font-weight: bold; }
 h1{ font-size:2.5em; }
-h2{ font-size:2em; }
+h2{ font-size:2em; margin-top: 40px; }
 h3{ font-size:1.5em; }
 h4{ font-size:1.2em; }
 h5{ font-size:1em; }
@@ -133,3 +132,6 @@ td { vertical-align: top; }
 
 }
 
+ul div.collapse li {
+	list-style: none;
+}
