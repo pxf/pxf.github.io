@@ -7,6 +7,14 @@ categories: support
 Getting Started
 ===============
 
+[1. Installation](#Installation)<br/>
+[2. Setting up the scene](#Setup)<br/>
+[4. Baking](#Baking)<br/>
+[5. Troubleshooting](#Troubleshooting)<br/>
+[6. Known Issues](#Issues)
+
+
+<a id="Installation"></a>
 Installation
 ------------
 * ### Installation
@@ -27,7 +35,7 @@ Installation
 
 	PXFPlugin will automatically check for updates when started.
 
-
+<a id="Setup"></a>
 Setting up the scene
 --------------------
 1. ### Enable plugin
@@ -66,6 +74,7 @@ Setting up the scene
 
 	**NOTE:** Make sure to save the settings before baking the scene.
 
+<a id="Baking"></a>
 Baking
 ------
 1. ### Start baking
@@ -78,6 +87,12 @@ Baking
 
 	When the bake process has finished, a tiny web server will spawn and the default browser will automatically open the newly created 3D scene.
 
+<a id="Troubleshooting"/></a>
 Troubleshooting
 ---------------
 TODO
+
+<a id="Issues"/></a>
+Known Issues
+------------
+
