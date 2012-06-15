@@ -30,10 +30,16 @@ Installation
 
 Setting up the scene
 --------------------
-1. ### Adding bake cameras
+1. ### Enable plugin
+	Before any baking or camera placements can be done, the plugin needs to be loaded in Maya. Make sure both the export and bake plugins are loaded.
+	![Enable plugins](/static/help_enableplugin.png)
+
+	**NOTE:** `generatelivehtml.py` should NOT be enabled!
+
+2. ### Adding bake cameras
 	TODO
 
-2. ### Configuring PXFBake
+3. ### Configuring PXFBake
 	Before the scene can be baked, make sure the bake settings has been setup correctly. To open the configuration
 	dialog, locate and press the configuration button in the PXFBake Plugin Toolbar.
 	![Configure button](/static/help_config_button.png)
