@@ -96,3 +96,10 @@ TODO
 Known Issues
 ------------
 
+1. "Bake manager already running" pops up when currently not baking. 
+
+Unfortunately, you'll have to restart maya / reset plugin to bake again when this happens.
+
+2. Bake wont start after already having baked once. 
+
+Unfortunately, you'll have to restart maya / reset plugin to bake again when this happens.
