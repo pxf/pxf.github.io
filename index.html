@@ -3,7 +3,7 @@ layout: default
 ---
 <div id="posts">
 	{% for post in site.posts %}
-		{% if post.layout != "static" %}
+		{% if post.layout != "static" and post.layout != "support" %}
 		<div class="post">
 			<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 			{{ post.content }}
