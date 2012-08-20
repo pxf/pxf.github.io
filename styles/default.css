@@ -3,23 +3,19 @@ html {
 	overflow-y: scroll;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
-	background-color: #ddd;
 }
 
 body {
 	color:#444;
-	font-family: 'Ubuntu Mono', sans-serif;
-	font-size:12px;
-	line-height:1.5em;
-	background:#fefefe;
-	width: 45em;
-	margin: 80px auto;
-	padding: 5em 5em;
-	border-bottom: 3px solid #aaa;
-	border-top: 3px solid #aaa;
+	font-family: 'PT Sans', 'Ubuntu Mono', sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	background: #fefefe;
+	padding: 0em;
+	margin: 0em;
+	text-align: justify;
 	/*outline: 1300px solid #FAFAFA;*/
 }
-
 
 a{ color: #0645ad; text-decoration:none;}
 
@@ -66,9 +62,9 @@ h1,h2,h3,h4,h5,h6{
 
 h4,h5,h6{ font-weight: bold; }
 h1{ font-size:2.5em; }
-h2{ font-size:2em; margin-top: 40px; }
+h2{ font-size:2em;}
 h3{ font-size:1.5em; }
-h4{ font-size:1.2em; }
+h4{ font-size:1.2em; margin-bottom: 0em; }
 h5{ font-size:1em; }
 h6{ font-size:0.9em; }
 
@@ -139,4 +135,77 @@ ul div.collapse li {
 #toc {
 	border: 1px solid #aaa;
 	font-size: 0.8em;
+}
+
+header {
+	color: #edeef1;
+	background-color: #2b3439;
+	padding: 0.8em 8em 0.8em 8em;
+	text-shadow: 0px 1px 1px #000;
+}
+
+figure a, figure a:visited, header a, header a:visited {
+	color: #ced8e2;
+}
+
+figure a:active, figure a:hover, header a:active, header a:hover {
+	color: #edeef1;
+}
+
+#blog header {
+	font-size: 1.2rem;
+	padding: 4rem 8rem 1rem 8rem;
+}
+
+article {
+	color:#444;
+	background: #fefefe;
+	padding: 2em 8em 3em 8em;
+	margin: 0em;
+}
+
+.post {
+	margin: 0 0 4em 0;
+}
+
+#posttitle {
+	margin: 0.2em 0em;
+}
+
+.subtitle {
+	margin: 0.2em 0em;
+}
+
+#postmeta {
+	color: #a3a6b7;
+	font-size: 0.8em;
+	margin-top: 0.8em;
+}
+
+figure {
+	float: right;
+	position: relative;
+	background-color: #2b3439;
+	color: #edeef1;
+	padding: 0.4em;
+	margin: 1em;
+	border-radius: 4px;
+	text-shadow: 0px 1px 1px #000;
+	width: auto;
+	max-width: 400px;
+	height: auto;
+	overflow: visible;
+}
+
+figcaption {
+	background-color: rgba(43, 53, 57, 0.9); 
+	text-align: center;
+	font-size: 0.8em;
+	padding: 1em 0;
+	position:absolute; bottom: 0; left:0; width:100%;
+	border-radius: 0px 0px 4px 4px;
+}
+
+figure img {
+	
 }

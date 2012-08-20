@@ -3,17 +3,39 @@
 	<head>
 		<meta charset="UTF-8">
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="/styles/default.css">
 		<link rel="stylesheet" type="text/css" href="/styles/pygments.css">
 
+
+
 		<title>pixelfolders</title>
 	</head>
-	<body>
-		<nav>
-			<a href="/">blog</a> |
-			<a href="/articles.html">articles</a> |
+	<body id="blog">
+		<header> pixelfolders - <a href="/">blog</a> -
+			<a href="/articles.html">articles</a> -
+			<a href="/page/history.html">stuff we made</a> -
 			<a href="/page/About.html">about</a>
-		</nav>
-		{{ content }}
+		</header>
+
+		<article>
+			<div id="content">{{ content }}</div>
+		</article>
+		
+
+		<script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'pxf'; // required: replace example with your forum shortname
+        var disqus_developer = 1; // developer mode is on
+
+        
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+        </script>
 	</body>
 </html>
