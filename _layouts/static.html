@@ -2,13 +2,22 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="/styles/default.css">
 		<link rel="stylesheet" type="text/css" href="/styles/pygments.css">
 
-		<title>{{ page.title }}</title>
+		<title>pixelfolders - {{ page.title }}</title>
 	</head>
 	<body>
-		{{ content }}
+		<header> pixelfolders - <a href="/">blog</a> -
+			<a href="/page/History.html">stuff we made</a> -
+			<a href="/page/About.html">about</a>
+		</header>
+
+		<article>
+			<h2 id="posttitle">{{ page.title }}</h2>
+			<div id="content">{{ content }}</div>
+		</article>
+
 	</body>
 </html>
