@@ -7,7 +7,7 @@ layout: default
 		{% if post.layout != "static" and post.layout != "support" %}
 		<div class="post">
 			<h2 id="posttitle"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-			<div id="postmeta">Posted on {{ post.date | date: "%Y %b %d" }} - <a href="#disqus_thread" data-disqus-identifier="{{ post.id }}">Comment</a></div>
+			<div id="postmeta">Posted on {{ post.date | date: "%Y %b %d" }} - <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Comment</a></div>
 			{{ post.content | truncatewords: 200 }}
 			<br>
 			<br>
