@@ -184,6 +184,7 @@ article {
 
 figure {
 	float: right;
+	clear: both;
 	position: relative;
 	background-color: #2b3439;
 	color: #edeef1;
