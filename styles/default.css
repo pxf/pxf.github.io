@@ -17,9 +17,9 @@ body {
 	/*outline: 1300px solid #FAFAFA;*/
 }
 
-a{ color: #0645ad; text-decoration:none;}
+a{ color: #1a4f9c; text-decoration:none; }
 
-a:visited{ color: #0b0080; }
+a:visited{ color: #1a4f9c; }
 
 a:hover{ color: #06e; cursor: pointer; }
 
