@@ -1,7 +1,6 @@
 ---
 title: Stuff We Made
 layout: static
-categories: page
 ---
 
 ### Games
