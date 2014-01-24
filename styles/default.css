@@ -210,7 +210,8 @@ figure {
 
 .full {
 	float: none;
-	width: 100%;
+	width: 100%    !important;
+	height: auto   !important;
 	max-width: 100%;
 	margin: 1em 0px;
 }
@@ -231,3 +232,5 @@ figcaption {
 figure img {
 	
 }
+
+
