@@ -208,7 +208,7 @@ figure {
 	overflow: visible;
 }
 
-figure.full {
+.full {
 	float: none;
 	width: 100%;
 	max-width: 100%;
