@@ -17,6 +17,10 @@ body {
 	/*outline: 1300px solid #FAFAFA;*/
 }
 
+article {
+	max-width: 1024px;
+}
+
 a{ color: #1a4f9c; text-decoration:none; }
 
 a:visited{ color: #1a4f9c; }
