@@ -1,5 +1,5 @@
 markdown: rdiscount
-permalink: none
+permalink: /:year/:title.html
 
 rdiscount:
   extensions: [smart]
